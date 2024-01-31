@@ -11,6 +11,9 @@
 * body button {
   cursor: pointer;
 }
+* body svg {
+  cursor: pointer;
+}
 * body header {
   display: flex;
   flex-direction: column;
@@ -440,6 +443,91 @@
 }
 * body footer .footer_one img {
   margin: 0 auto;
+  max-width: 360px;
+  width: 100%;
+}
+* body footer .footer_twoo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  background: #90d4c6;
+  height: 350px;
+}
+* body footer .footer_twoo .footer_center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 297px;
+  width: 100%;
+}
+* body footer .footer_twoo .footer_center img {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+* body footer .footer_twoo .footer_center .ulli {
+  display: flex;
+  justify-content: space-between;
+  max-width: 297px;
+  width: 100%;
+}
+* body footer .footer_twoo .footer_center .ulli ul {
+  max-width: 297px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+* body footer .footer_twoo .footer_center .ulli ul li {
+  color: #458d7e;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 138.889% */
+  letter-spacing: -0.129px;
+}
+* body footer .footer_twoo .footer_center .ulli li:hover {
+  color: #fff;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 138.889% */
+  letter-spacing: -0.129px;
+}
+* body footer .footer_twoo .footer_center .icons {
+  padding-top: 88px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 164px;
+  height: 20px;
+}
+* body footer .footer_twoo .footer_center .icons .fasebook svg path {
+  fill: #2c7566;
+}
+* body footer .footer_twoo .footer_center .icons .fasebook svg path:hover {
+  fill: #ffffff;
+}
+* body footer .footer_twoo .footer_center .icons .twiter svg path {
+  fill: #2c7566;
+}
+* body footer .footer_twoo .footer_center .icons .twiter svg path:hover {
+  fill: #ffffff;
+}
+* body footer .footer_twoo .footer_center .icons .instagram svg path {
+  fill: #2c7566;
+}
+* body footer .footer_twoo .footer_center .icons .instagram svg path:hover {
+  fill: #ffffff;
+}
+* body footer .footer_twoo .footer_center .icons .NETLIFE svg path {
+  fill: #2c7566;
+}
+* body footer .footer_twoo .footer_center .icons .NETLIFE svg path:hover {
+  fill: #ffffff;
 }
 
 @media (max-width: 700px) {

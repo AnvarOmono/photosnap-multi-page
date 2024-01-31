@@ -11,6 +11,9 @@
     button {
       cursor: pointer;
     }
+    svg {
+      cursor: pointer;
+    }
     header {
       display: flex;
       flex-direction: column;
@@ -432,19 +435,120 @@
         }
       }
     }
-    footer{
+    footer {
       margin: 0 auto;
       max-width: 1440px;
       width: 100%;
-      .footer_one{
+      .footer_one {
         margin: 0 auto;
         max-width: 1440px;
         width: 100%;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        img{
+        img {
           margin: 0 auto;
+          max-width: 360px;
+          width: 100%;
+        }
+      }
+      .footer_twoo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1440px;
+        width: 100%;
+        background: #90d4c6;
+        height: 350px;
+        .footer_center {
+          display: flex;
+          justify-content: center;
+         flex-direction: column;
+          max-width: 297px;
+          width: 100%;
+          img {
+            margin: 0 auto;
+            text-align: center;
+            padding-bottom: 40px;
+          }
+          .ulli {
+            display: flex;
+            justify-content: space-between;
+            max-width: 297px;
+            width: 100%;
+            ul {
+              max-width: 297px;
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              li {
+                color: #458d7e;
+                font-family: Barlow;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 25px; /* 138.889% */
+                letter-spacing: -0.129px;
+              }
+            }
+            li:hover {
+              color: #fff;
+              font-family: Barlow;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 25px; /* 138.889% */
+              letter-spacing: -0.129px;
+            }
+          }
+          .icons {
+            padding-top: 88px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            width: 164px;
+            height: 20px;
+            .fasebook {
+              svg {
+                path {
+                  fill: #2c7566;
+                }
+                path:hover {
+                  fill: #ffffff;
+                }
+              }
+            }
+            .twiter {
+              svg {
+                path {
+                  fill: #2c7566;
+                }
+                path:hover {
+                  fill: #ffffff;
+                }
+              }
+            }
+            .instagram {
+              svg {
+                path {
+                  fill: #2c7566;
+                }
+                path:hover {
+                  fill: #ffffff;
+                }
+              }
+            }
+            .NETLIFE {
+              svg {
+                path {
+                  fill: #2c7566;
+                }
+                path:hover {
+                  fill: #ffffff;
+                }
+              }
+            }
+          }
         }
       }
     }
