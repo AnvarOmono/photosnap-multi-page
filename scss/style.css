@@ -116,25 +116,25 @@
   max-width: 1440px;
   width: 100%;
 }
-* body main .one {
+* body main .main_one .one {
   max-width: 1440px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap-reverse;
 }
-* body main .one .speaker {
+* body main .main_one .one .speaker {
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 720px;
   width: 100%;
 }
-* body main .one .speaker .spek {
+* body main .main_one .one .speaker .spek {
   max-width: 445px;
   width: 100%;
 }
-* body main .one .speaker .spek h4 {
+* body main .main_one .one .speaker .spek h4 {
   max-width: 370px;
   width: 100%;
   color: #24303e;
@@ -145,7 +145,7 @@
   line-height: normal;
   letter-spacing: -0.286px;
 }
-* body main .one .speaker .spek h5 {
+* body main .main_one .one .speaker .spek h5 {
   padding-top: 30px;
   color: #808397;
   font-family: Barlow;
@@ -156,11 +156,11 @@
   letter-spacing: -0.129px;
   padding-bottom: 40px;
 }
-* body main .one .speaker .spek .buttton {
+* body main .main_one .one .speaker .spek .buttton {
   width: 137px;
   height: 25px;
 }
-* body main .one .speaker .spek .buttton h6 {
+* body main .main_one .one .speaker .spek .buttton h6 {
   cursor: pointer;
   margin: 0 auto;
   padding-top: 27px;
@@ -176,7 +176,7 @@
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-* body main .one .speaker .spek .buttton .yellow {
+* body main .main_one .one .speaker .spek .buttton .yellow {
   cursor: pointer;
   transform: translateY(-40px);
   width: 137px;
@@ -185,29 +185,29 @@
   opacity: 0.25;
   background: #fad400;
 }
-* body main .one .eggs {
+* body main .main_one .one .eggs {
   max-width: 720px;
   width: 100%;
 }
-* body main .twoo {
+* body main .main_one .twoo {
   max-width: 1440px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-* body main .twoo .speaker {
+* body main .main_one .twoo .speaker {
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 720px;
   width: 100%;
 }
-* body main .twoo .speaker .spek {
+* body main .main_one .twoo .speaker .spek {
   max-width: 445px;
   width: 100%;
 }
-* body main .twoo .speaker .spek h4 {
+* body main .main_one .twoo .speaker .spek h4 {
   max-width: 370px;
   width: 100%;
   color: #24303e;
@@ -218,7 +218,7 @@
   line-height: normal;
   letter-spacing: -0.286px;
 }
-* body main .twoo .speaker .spek h5 {
+* body main .main_one .twoo .speaker .spek h5 {
   padding-top: 30px;
   color: #808397;
   font-family: Barlow;
@@ -229,11 +229,11 @@
   letter-spacing: -0.129px;
   padding-bottom: 40px;
 }
-* body main .twoo .speaker .spek .buttton {
+* body main .main_one .twoo .speaker .spek .buttton {
   width: 137px;
   height: 25px;
 }
-* body main .twoo .speaker .spek .buttton h6 {
+* body main .main_one .twoo .speaker .spek .buttton h6 {
   cursor: pointer;
   margin: 0 auto;
   padding-top: 27px;
@@ -249,7 +249,7 @@
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-* body main .twoo .speaker .spek .buttton .yellow {
+* body main .main_one .twoo .speaker .spek .buttton .yellow {
   cursor: pointer;
   transform: translateY(-40px);
   width: 137px;
@@ -258,18 +258,18 @@
   opacity: 0.25;
   background: #fe7766;
 }
-* body main .twoo .eggs {
+* body main .main_one .twoo .eggs {
   max-width: 720px;
   width: 100%;
 }
-* body main .tree {
+* body main .main_one .tree {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 1440px;
   width: 100%;
 }
-* body main .tree .four {
+* body main .main_one .tree .four {
   display: flex;
   justify-content: center;
   align-items: end;
@@ -278,12 +278,12 @@
   height: 600px;
   background-image: url(../img/olcha.png);
 }
-* body main .tree .four .spekes {
+* body main .main_one .tree .four .spekes {
   max-width: 340px;
   width: 100%;
   padding-bottom: 60px;
 }
-* body main .tree .four .spekes h6 {
+* body main .main_one .tree .four .spekes h6 {
   color: #24554a;
   text-align: center;
   font-family: "Fraunces 9pt Soft";
@@ -294,7 +294,7 @@
   letter-spacing: -0.2px;
   padding-bottom: 30px;
 }
-* body main .tree .four .spekes p {
+* body main .main_one .tree .four .spekes p {
   color: #24554a;
   text-align: center;
   font-family: Barlow;
@@ -304,7 +304,7 @@
   line-height: 27px; /* 168.75% */
   letter-spacing: -0.114px;
 }
-* body main .tree .five {
+* body main .main_one .tree .five {
   display: flex;
   justify-content: center;
   align-items: end;
@@ -315,12 +315,12 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-* body main .tree .five .spekes {
+* body main .main_one .tree .five .spekes {
   max-width: 340px;
   width: 100%;
   padding-bottom: 60px;
 }
-* body main .tree .five .spekes h6 {
+* body main .main_one .tree .five .spekes h6 {
   color: #24554a;
   text-align: center;
   font-family: "Fraunces 9pt Soft";
@@ -331,7 +331,7 @@
   letter-spacing: -0.2px;
   padding-bottom: 30px;
 }
-* body main .tree .five .spekes p {
+* body main .main_one .tree .five .spekes p {
   color: #24554a;
   text-align: center;
   font-family: Barlow;
@@ -340,6 +340,89 @@
   font-weight: 600;
   line-height: 27px; /* 168.75% */
   letter-spacing: -0.114px;
+}
+* body main .main_twoo {
+  padding-top: 160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1110px;
+  width: 100%;
+}
+* body main .main_twoo p {
+  padding-bottom: 80px;
+  color: #a7aaad;
+  text-align: center;
+  font-family: "Fraunces 9pt Soft";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 5px;
+  margin: 0 auto;
+}
+* body main .main_twoo .uchta {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1110px;
+  width: 100%;
+}
+* body main .main_twoo .uchta .bir {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 350px;
+  width: 100%;
+}
+* body main .main_twoo .uchta .bir .oval {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto;
+}
+* body main .main_twoo .uchta .bir p {
+  padding-top: 60px;
+  color: #5b636d;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: -0.129px;
+  padding-bottom: 70px;
+}
+* body main .main_twoo .uchta .bir .emaly {
+  padding-bottom: 60px;
+  margin: 0 auto;
+  display: flex;
+  width: 203px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+}
+* body main .main_twoo .uchta .bir .emaly h5 {
+  color: #24303e;
+  text-align: center;
+  font-family: "Fraunces 9pt Soft";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.129px;
+}
+* body main .main_twoo .uchta .bir .emaly h5 ul li {
+  color: #a7aaad;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 178.571% */
+  letter-spacing: -0.1px;
 }
 
 @media (max-width: 700px) {
@@ -375,14 +458,14 @@
   }
 }
 @media (max-width: 1440px) {
-  body main .one .eggs {
+  body main .main_one .one .eggs {
     margin: 0 auto;
   }
-  body main .one .speaker {
+  body main .main_one .one .speaker {
     margin: 0 auto;
     padding-top: 65px;
   }
-  * body main .one .speaker .spek h4 {
+  * body main .main_one .one .speaker .spek h4 {
     color: #24303e;
     margin: 0 auto;
     text-align: center;
@@ -393,7 +476,7 @@
     line-height: normal;
     letter-spacing: -0.229px;
   }
-  body main .one .speaker .spek h5 {
+  body main .main_one .one .speaker .spek h5 {
     max-width: 327px;
     margin: 0 auto;
     width: 100%;
@@ -406,20 +489,20 @@
     line-height: 30px; /* 166.667% */
     letter-spacing: -0.129px;
   }
-  body main .one .speaker .spek .buttton {
+  body main .main_one .one .speaker .spek .buttton {
     margin: 0 auto;
     padding-bottom: 65px;
   }
 }
 @media (max-width: 1440px) {
-  body main .twoo .eggs {
+  body main .main_one .twoo .eggs {
     margin: 0 auto;
   }
-  body main .twoo .speaker {
+  body main .main_one .twoo .speaker {
     margin: 0 auto;
     padding-top: 65px;
   }
-  * body main .twoo .speaker .spek h4 {
+  * body main .main_one .twoo .speaker .spek h4 {
     color: #24303e;
     margin: 0 auto;
     text-align: center;
@@ -430,7 +513,7 @@
     line-height: normal;
     letter-spacing: -0.229px;
   }
-  body main .twoo .speaker .spek h5 {
+  body main .main_one .twoo .speaker .spek h5 {
     max-width: 327px;
     margin: 0 auto;
     width: 100%;
@@ -443,16 +526,16 @@
     line-height: 30px; /* 166.667% */
     letter-spacing: -0.129px;
   }
-  body main .twoo .speaker .spek .buttton {
+  body main .main_one .twoo .speaker .spek .buttton {
     margin: 0 auto;
     padding-bottom: 65px;
   }
 }
 @media (max-width: 1440px) {
-  * body main .tree .four {
+  * body main .main_one .tree .four {
     margin: 0 auto;
   }
-  * body main .tree .five {
+  * body main .main_one .tree .five {
     margin: 0 auto;
   }
 }/*# sourceMappingURL=style.css.map */
