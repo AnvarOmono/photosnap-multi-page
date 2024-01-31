@@ -111,6 +111,84 @@
   padding-top: 96px;
   margin: 0 auto;
 }
+* body main {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+}
+* body main .one {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+* body main .one .speaker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 720px;
+  width: 100%;
+}
+* body main .one .speaker .spek {
+  max-width: 445px;
+  width: 100%;
+}
+* body main .one .speaker .spek h4 {
+  max-width: 370px;
+  width: 100%;
+  color: #24303e;
+  font-family: "Fraunces 9pt Soft";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.286px;
+}
+* body main .one .speaker .spek h5 {
+  padding-top: 30px;
+  color: #808397;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.129px;
+  padding-bottom: 40px;
+}
+* body main .one .speaker .spek .buttton {
+  width: 137px;
+  height: 25px;
+}
+* body main .one .speaker .spek .buttton h6 {
+  cursor: pointer;
+  margin: 0 auto;
+  padding-top: 27px;
+  transform: translateY(-30px);
+  max-width: 120px;
+  width: 100%;
+  color: #24303e;
+  font-family: "Fraunces 9pt Soft";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+* body main .one .speaker .spek .buttton .yellow {
+  cursor: pointer;
+  transform: translateY(-40px);
+  width: 137px;
+  height: 10px;
+  border-radius: 28px;
+  opacity: 0.25;
+  background: #fad400;
+}
+* body main .one .eggs {
+  max-width: 720px;
+  width: 100%;
+}
 
 @media (max-width: 700px) {
   body header {
@@ -128,7 +206,7 @@
     transform: translateY(-120px);
   }
   body header h1 {
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-family: "Fraunces 9pt Soft";
     font-size: 40px;
