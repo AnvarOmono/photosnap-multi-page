@@ -185,9 +185,9 @@
             }
           }
         }
-        .eggs{
+        .eggs {
           max-width: 720px;
-          width: 100%;  
+          width: 100%;
         }
       }
       .twoo {
@@ -253,14 +253,56 @@
                 height: 10px;
                 border-radius: 28px;
                 opacity: 0.25;
-                background: #FE7766;
+                background: #fe7766;
               }
             }
           }
         }
-        .eggs{
+        .eggs {
           max-width: 720px;
-          width: 100%;  
+          width: 100%;
+        }
+      }
+      .tree {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 1440px;
+        width: 100%;
+        .four {
+          display: flex;
+          justify-content: center;
+          align-items: end;
+          max-width: 720px;
+          width: 100%;
+          height: 600px;
+          background-image: url(../img/olcha.png);
+          .spekes {
+            max-width: 340px;
+            width: 100%;
+            padding-bottom: 60px;
+            h6 {
+              color: #24554a;
+              text-align: center;
+              font-family: "Fraunces 9pt Soft";
+              font-size: 28px;
+              font-style: normal;
+              font-weight: 900;
+              line-height: normal;
+              letter-spacing: -0.2px;
+              padding-bottom: 30px;
+            }
+            p {
+              color: #24554a;
+              text-align: center;
+              font-family: Barlow;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 27px; /* 168.75% */
+              letter-spacing: -0.114px;
+            }
+          }
         }
       }
     }
@@ -303,76 +345,76 @@
     }
   }
 }
-@media (max-width:1440px) {
-  body main .one .eggs{
+@media (max-width: 1440px) {
+  body main .one .eggs {
     margin: 0 auto;
   }
-  body main .one .speaker{
+  body main .one .speaker {
     margin: 0 auto;
     padding-top: 65px;
   }
-  * body main .one .speaker .spek h4{
-    color: #24303E;
+  * body main .one .speaker .spek h4 {
+    color: #24303e;
     margin: 0 auto;
-text-align: center;
-font-family: "Fraunces 9pt Soft";
-font-size: 32px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-letter-spacing: -0.229px;
+    text-align: center;
+    font-family: "Fraunces 9pt Soft";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.229px;
   }
-  body main .one .speaker .spek h5{
+  body main .one .speaker .spek h5 {
     max-width: 327px;
     margin: 0 auto;
     width: 100%;
     color: #808397;
-text-align: center;
-font-family: Barlow;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 30px; /* 166.667% */
-letter-spacing: -0.129px;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: -0.129px;
   }
-  body main .one .speaker .spek .buttton{
+  body main .one .speaker .spek .buttton {
     margin: 0 auto;
     padding-bottom: 65px;
   }
 }
-@media (max-width:1440px) {
-  body main .twoo .eggs{
+@media (max-width: 1440px) {
+  body main .twoo .eggs {
     margin: 0 auto;
   }
-  body main .twoo .speaker{
+  body main .twoo .speaker {
     margin: 0 auto;
     padding-top: 65px;
   }
-  * body main .twoo .speaker .spek h4{
-    color: #24303E;
+  * body main .twoo .speaker .spek h4 {
+    color: #24303e;
     margin: 0 auto;
-text-align: center;
-font-family: "Fraunces 9pt Soft";
-font-size: 32px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-letter-spacing: -0.229px;
+    text-align: center;
+    font-family: "Fraunces 9pt Soft";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.229px;
   }
-  body main .twoo .speaker .spek h5{
+  body main .twoo .speaker .spek h5 {
     max-width: 327px;
     margin: 0 auto;
     width: 100%;
     color: #808397;
-text-align: center;
-font-family: Barlow;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 30px; /* 166.667% */
-letter-spacing: -0.129px;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: -0.129px;
   }
-  body main .twoo .speaker .spek .buttton{
+  body main .twoo .speaker .spek .buttton {
     margin: 0 auto;
     padding-bottom: 65px;
   }
