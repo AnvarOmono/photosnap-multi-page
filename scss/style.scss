@@ -346,6 +346,7 @@
       }
       .main_twoo {
         padding-top: 160px;
+        padding-bottom: 160px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -428,6 +429,22 @@
               }
             }
           }
+        }
+      }
+    }
+    footer{
+      margin: 0 auto;
+      max-width: 1440px;
+      width: 100%;
+      .footer_one{
+        margin: 0 auto;
+        max-width: 1440px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        img{
+          margin: 0 auto;
         }
       }
     }

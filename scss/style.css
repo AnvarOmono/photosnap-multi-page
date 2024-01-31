@@ -343,6 +343,7 @@
 }
 * body main .main_twoo {
   padding-top: 160px;
+  padding-bottom: 160px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -423,6 +424,22 @@
   font-weight: 600;
   line-height: 25px; /* 178.571% */
   letter-spacing: -0.1px;
+}
+* body footer {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+}
+* body footer .footer_one {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+* body footer .footer_one img {
+  margin: 0 auto;
 }
 
 @media (max-width: 700px) {
