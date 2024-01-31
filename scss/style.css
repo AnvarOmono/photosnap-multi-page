@@ -21,6 +21,7 @@
   background-image: url(../img/big_beground_img.png);
   background-repeat: no-repeat;
   background-position: center center;
+  background-color: #2bbef3;
   margin: 0 auto;
 }
 * body header .header {
@@ -109,4 +110,37 @@
   transform: translateY(-80px);
   padding-top: 96px;
   margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  body header {
+    max-width: 1440px;
+    width: 100%;
+    height: 800px;
+  }
+  body header .header {
+    padding-top: 50px;
+  }
+  body header .header .alot {
+    display: none;
+  }
+  * body header .arrow {
+    transform: translateY(-120px);
+  }
+  body header h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Fraunces 9pt Soft";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 6.25px;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 700px) {
+  body header .header .threelines {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
